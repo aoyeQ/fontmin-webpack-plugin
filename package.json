@@ -1,0 +1,27 @@
+{
+  "name": "fontmin-webpack-plugin",
+  "version": "1.0.0",
+  "description": "split xx.tff from your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoyeQ/fontmin-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "fontmin"
+  ],
+  "author": "aoyeQ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoyeQ/fontmin-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/aoyeQ/fontmin-webpack-plugin#readme",
+  "dependencies": {
+    "fontmin": "^0.9.7-beta"
+  }
+}
