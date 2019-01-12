@@ -1,13 +1,11 @@
 var path = require('path');
-var FontMinByFont = require('../.');
-
-var webpackMajorVersion = require('webpack/package.json').version.split('.')[0];
+var FontMinByFont = require('../..');
 
 module.exports = {
   context: __dirname,
   entry: './example.js',
   output: {
-    path: path.join(__dirname, 'dist/webpack-' + webpackMajorVersion),
+    path: path.join(__dirname),
     publicPath: '',
     filename: 'bundle.js'
   },
@@ -24,8 +22,8 @@ module.exports = {
       targetpath: path.resolve(__dirname, '../src/assets/font'), // split target file to where
       exclude: [path.resolve(__dirname, '../src/pages/xx.js')], // extra file , in [filepath]
       include: [ // other file ,not in [filepath]
-        path.resolve(__dirname, '../src/mixin/scan.js'),
-        path.resolve(__dirname, '../src/pages/haiZhuan/Center.vue')
+        path.resolve(__dirname, '../src/mixin/xx.js'),
+        path.resolve(__dirname, '../src/pages/xx/xxx.js')
       ]
     })
   ]
