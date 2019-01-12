@@ -46,7 +46,7 @@ class FontMinByFont {
   geAllPath (readPath) { // get all file path from dir
     let allFilePath = []
     function getFilePath (pathUrl) {
-      const filesArr = fs.readdirSync(pathUrl)
+      const filesArr = fs.readdirSync(pathUrl) || []
       filesArr.forEach(v => {
         const curFilePath = path.join(pathUrl, v)
         const stat = fs.lstatSync(curFilePath)
