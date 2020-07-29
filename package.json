@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/aoyeQ/fontmin-webpack-plugin#readme",
   "dependencies": {
-    "fontmin": "^0.9.7-beta",
-    "webpack": "^2.3.3"
+    "fontmin": "^0.9.7-beta"
   }
 }
