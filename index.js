@@ -73,7 +73,7 @@ class FontMinByFont {
       let oneFile = file.match(regex)
       if (oneFile && Array.isArray(oneFile)) return oneFile.filter(v => !v.includes('/') && !v.includes('微软雅黑'))
     })
-    const fontArr = font.join('').split(',')
+    const fontArr = font && font.join('').split(',')
     const fontStr = fontArr.join('')
     let fonts = []
     for (let i = 0; i < fontStr.length; i++) {

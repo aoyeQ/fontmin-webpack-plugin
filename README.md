@@ -1,8 +1,9 @@
 # fontmin-webpack-plugin
-> **desc**:
+
+### desc
 split xxx.tff from your project
 
-> **install**:
+### **install**:
 > npm install fontmin-webpack-plugin
 
 

@@ -1,6 +1,6 @@
 {
   "name": "fontmin-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "split xx.tff from your project",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/aoyeQ/fontmin-webpack-plugin#readme",
   "dependencies": {
     "fontmin": "^0.9.7-beta",
-    "webpack": "^4.20.2"
+    "webpack": "^2.3.3"
   }
 }
